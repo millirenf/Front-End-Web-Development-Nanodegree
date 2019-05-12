@@ -1,0 +1,60 @@
+html, body {
+    background-color: grey;
+}
+.featured-work-banner, .header {
+    color: rgb(243, 221, 19);
+    text-align: center;
+}
+h2 {
+    color: rgb(243, 221, 19);
+    text-align: center;
+}
+p {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+.header {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.website-intro {
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.container {    
+    display: flex;
+    flex-wrap: wrap;
+    margin: .1em;
+    justify-content: center;
+}
+.featured-work-1, .featured-work-2, .featured-work-3 {
+    width: 100%;
+    margin: .1em;
+    border: solid;
+}
+@media screen and (min-width: 675px) {
+    .featured-work-1, .featured-work-2, .featured-work-3 {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 850px) {
+    .featured-work-1, .featured-work-2, .featured-work-3 {
+        width: 33%;
+    }
+}
+footer{
+    max-width: 100%;
+}
+.logo {
+    max-width: 20%;
+    padding: 0% 40% 0% 40%;
+    display: block;
+    justify-content: center;
+}
